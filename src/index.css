@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --section-margin: 20px;
+  --footer-padding: 20px;
+  --card-height: 100%;
+  --navbar-height: 60px;
+  --header-footer-color: #f8f9fa;
+
+  --primary-color: #539e8a;
+  --secondary-color: #f6c5be;
+  --dark-bg-text-color: #fae2de;
+
+  --hover-color: #539e8adb;
+
+  --btn-border-radius: 50px;
+  --card-border-radius: 20px;
+
+  --shadow-cards: 0px 10px 10px 0px #c5c5c5b3;
+  --hover-shadow-cards: 0px 5px 5px 0 #9c9c9cb3;
+  --shadow-active: 0px 3px 3px 0 #7d7d7db3;
+  --shadow-menu-cards: 0 0px 10px 0 #c5c5c5b3;
+  --hover-shadow-menu-cards: 0px 0px 5px 0px #a2a2a2b3;
+
+  --transition: 0.3s;
+
+  --transform: scale(0.99);
+  --transform-active: scale(0.96);
+  --transition-active: 0.1s;
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+.header-logo {
+  height: 30px;
+}
