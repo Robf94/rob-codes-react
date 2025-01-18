@@ -9,6 +9,8 @@
   --navbar-height: 60px;
   --header-footer-color: #f8f9fa;
 
+  --padding-desktop: 15%;
+
   --primary-color: #539e8a;
   --secondary-color: #f6c5be;
   --dark-bg-text-color: #fae2de;
@@ -31,10 +33,84 @@
   --transition-active: 0.1s;
 }
 
-nav {
-  background-color: var(--primary-color);
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(242, 242, 242);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Fugaz One", sans-serif;
+  }
 }
 
-.header-logo {
-  height: 30px;
+section {
+  scroll-margin-top: calc(
+    var(--navbar-height) + 3rem
+  )
+}
+
+header {
+  height: var(--navbar-height)
+}
+
+.navbar-custom {
+  /* padding: 10px 0; */
+  background-color: var(--primary-color);
+  .nav-link {
+    color: var(--dark-bg-text-color) !important;
+  }
+  /* .header-logo {
+    height: 30px;
+  } */
+}
+
+#about-me {
+  background-color: var(--primary-color);
+  /* height: calc(100vh - var(--navbar-height)); */
+  height: 100vh;
+}
+
+#about-me .row-about {
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--dark-bg-text-color);
+  position: relative;
+  height: 100%;
+}
+
+#about-me p {
+  font-size: 20px;
+}
+
+#about-me .img-container {
+  width: auto;
+}
+
+#about-me .rob-photo {
+  object-fit: cover;
+  width: 300px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+#about-me .arrow-container {
+  position: absolute;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .custom-padding-lg {
+    padding-left: var(--padding-desktop);
+    padding-right: var(--padding-desktop);
+  }
+  #about-me .row-about {
+    justify-content: space-between;
+  }
 }
