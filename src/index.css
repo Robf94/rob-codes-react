@@ -49,21 +49,17 @@ body {
 }
 
 section {
-  scroll-margin-top: calc(
-    var(--navbar-height) + 3rem
-  )
+  scroll-margin-top: calc(var(--navbar-height) + 3rem);
 }
 
 header {
-  height: var(--navbar-height)
+  height: var(--navbar-height);
 }
 
 .navbar-custom {
   /* padding: 10px 0; */
   background-color: var(--primary-color);
-  .nav-link {
-    color: var(--dark-bg-text-color) !important;
-  }
+  height: var(--navbar-height);
   /* .header-logo {
     height: 30px;
   } */
@@ -71,16 +67,14 @@ header {
 
 #about-me {
   background-color: var(--primary-color);
-  /* height: calc(100vh - var(--navbar-height)); */
   height: 100vh;
+  /* height: calc(100vh + 60px); */
+  /* height: 100vh; */
 }
 
 #about-me .row-about {
-  align-items: center;
-  justify-content: space-evenly;
-  color: var(--dark-bg-text-color);
+  padding-top: 60px;
   position: relative;
-  height: 100%;
 }
 
 #about-me p {
@@ -105,7 +99,7 @@ header {
   font-size: 30px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .custom-padding-lg {
     padding-left: var(--padding-desktop);
     padding-right: var(--padding-desktop);
