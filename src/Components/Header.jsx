@@ -53,7 +53,7 @@ function Header() {
         >
           <img
             className="h-full"
-            src="./src/assets/logos/rob-codes-header.png"
+            src="./public/assets/logos/rob-codes-header.png"
             alt="Logo"
           />
         </a>
