@@ -4,7 +4,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 function Hero() {
   return (
     <section
-      className="flex custom-padding-lg px-2"
+      className="flex custom-padding-lg px-2 bg-primary h-screen"
       id="about-me"
     >
       <div className="flex flex-col md:flex-row items-center justify-evenly md:justify-between h-full w-full gap-0 row-about">
