@@ -49,7 +49,7 @@ body {
 }
 
 section {
-  scroll-margin-top: calc(var(--navbar-height) + 3rem);
+  scroll-margin-top: var(--navbar-height);
 }
 
 header {
@@ -57,12 +57,8 @@ header {
 }
 
 .navbar-custom {
-  /* padding: 10px 0; */
   background-color: var(--primary-color);
   height: var(--navbar-height);
-  /* .header-logo {
-    height: 30px;
-  } */
 }
 
 #about-me .row-about {
@@ -100,14 +96,9 @@ header {
   height: 100%;
 }
 
-.card {
+.workCard {
   border-radius: 30px;
   background-color: white;
-}
-
-.custom-btn {
-  margin-top: auto;
-  border: 0px;
 }
 
 @media screen and (min-width: 1024px) {

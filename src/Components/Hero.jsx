@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import scrollToView from "../utils/scrollToView";
 
 function Hero() {
   return (
@@ -18,7 +19,7 @@ function Hero() {
         </div>
         <div className="img-container w-full md:w-1/2">
           <img
-            src="../../public/assets/me/rob-cropped.jpg"
+            src="/assets/me/rob-cropped.jpg"
             alt="A photo of Rob"
             className="rob-photo rounded-full"
           />
@@ -26,8 +27,11 @@ function Hero() {
 
         <div className="arrow-container hidden md:flex justify-center w-full text-darkBgText">
           <a
-            className="nav-link"
-            href="#my-projects"
+            className="nav-link cursor-pointer"
+            onClick={(e) => {
+              e.preventDefault()
+              scrollToView("work")
+            }}
           >
             <FontAwesomeIcon icon={faAngleDown} />
           </a>

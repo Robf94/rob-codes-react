@@ -1,0 +1,15 @@
+[
+  { "src": "/assets/skills-logos/HTML5_Badge.png", "alt": "HTML 5 Logo" },
+  { "src": "/assets/skills-logos/CSS3_badge.png", "alt": "CSS 3 Logo" },
+  { "src": "/assets/skills-logos/sass.png", "alt": "Sass Logo" },
+  { "src": "/assets/skills-logos/bootstrap.png", "alt": "Bootstrap Logo" },
+  { "src": "/assets/skills-logos/js-badge.png", "alt": "JavaScript Logo" },
+  { "src": "/assets/skills-logos/python.png", "alt": "Python Logo" },
+  { "src": "/assets/skills-logos/eleventy.png", "alt": "Eleventy Logo" },
+  { "src": "/assets/skills-logos/nunjucks.jpg", "alt": "Nunjucks Logo" },
+  { "src": "/assets/skills-logos/Netlify_logo.png", "alt": "Netlify Logo" },
+  { "src": "/assets/skills-logos/Git_icon.png", "alt": "Git Logo" },
+  { "src": "/assets/skills-logos/github-mark.png", "alt": "GitHub Logo" },
+  { "src": "/assets/skills-logos/wp-logo.png", "alt": "WordPress Logo" },
+  { "src": "/assets/skills-logos/react.png", "alt": "React Logo" }
+]

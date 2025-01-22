@@ -1,8 +1,8 @@
 import daisyui from "daisyui";
+const flowbite = require("flowbite-react/tailwind");
 
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", flowbite.content()],
   theme: {
     extend: {
       colors: {
@@ -13,8 +13,15 @@ export default {
         shadowActive: "#7d7d7db3",
       },
     },
+    borderRadius: {
+      none: "0",
+      sm: "5px",
+      md: "10px",
+      lg: "20px",
+      full: "9999px",
+    },
   },
-  plugins: [daisyui],
+  plugins: [daisyui, flowbite.plugin()],
   daisyui: {
     themes: [
       {
