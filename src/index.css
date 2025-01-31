@@ -48,9 +48,9 @@ body {
   }
 }
 
-section {
+/* section {
   scroll-margin-top: var(--navbar-height);
-}
+} */
 
 header {
   height: var(--navbar-height);
@@ -61,24 +61,12 @@ header {
   height: var(--navbar-height);
 }
 
-#about-me .row-about {
-  padding-top: 60px;
-  position: relative;
-}
-
 #about-me p {
   font-size: 20px;
 }
 
-#about-me .img-container {
-  width: auto;
-}
-
 #about-me .rob-photo {
-  object-fit: cover;
   width: 300px;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
 }
 
 #about-me .arrow-container {
@@ -88,12 +76,83 @@ header {
   font-size: 30px;
 }
 
-.swiper {
+.swiper-matching-height {
   height: 450px;
 }
 
-.swiper-slide {
+.swiper-slide-homepage {
   height: 100%;
+}
+
+.subpage-swiper-slide {
+  height: 405px;
+  position: relative;
+  overflow: hidden;
+}
+
+.subpage-swiper-slide .image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+}
+
+.subpage-swiper-slide .image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40%;
+  right: -40%;
+  bottom: -40%;
+  background-image: inherit;
+  background-size: cover;
+  filter: blur(20px);
+  transform: scale(1.2);
+}
+
+.subpage-swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
 }
 
 .workCard {
@@ -101,12 +160,14 @@ header {
   background-color: white;
 }
 
+.tooltip {
+  --tooltip-color: #000;
+  --tooltip-text-color: #fff;
+}
+
 @media screen and (min-width: 1024px) {
   .custom-padding-lg {
     padding-left: var(--padding-desktop);
     padding-right: var(--padding-desktop);
-  }
-  #about-me .row-about {
-    justify-content: space-between;
   }
 }

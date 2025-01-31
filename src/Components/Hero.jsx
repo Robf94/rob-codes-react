@@ -5,32 +5,33 @@ import scrollToView from "../utils/scrollToView";
 function Hero() {
   return (
     <section
-      className="flex custom-padding-lg px-2 bg-primary h-screen"
+      className="custom-padding-lg flex h-screen bg-primary px-2"
       id="about-me"
     >
-      <div className="flex flex-col md:flex-row items-center justify-evenly md:justify-between h-full w-full gap-0 row-about">
-        <div className="text-container w-full md:w-1/2 text-darkBgText">
-          <h2 className="text-4xl mb-2">Hi, I'm Rob</h2>
-          <p className="text-lg mb-0">
-            I'm a self-motivated junior software developer looking to begin a career in the
-            industry. With a growing wealth of experience to hand, my ambition is to become a
-            full-stack software developer. Please feel free to browse my recent projects below!
+      <div className="relative flex h-full w-full flex-col items-center justify-evenly gap-0 pt-nav md:flex-row md:justify-between">
+        <div className="text-container w-full text-darkBgText md:w-1/2">
+          <h2 className="mb-2 text-4xl">Hi, I'm Rob</h2>
+          <p className="mb-0 text-lg">
+            I'm a self-motivated junior software developer looking to begin a
+            career in the industry. With a growing wealth of experience to hand,
+            my ambition is to become a full-stack software developer. Please
+            feel free to browse my recent projects below!
           </p>
         </div>
-        <div className="img-container w-full md:w-1/2">
+        <div className="img-container flex w-auto justify-center">
           <img
             src="/assets/me/rob-cropped.jpg"
             alt="A photo of Rob"
-            className="rob-photo rounded-full"
+            className="rob-photo aspect-square rounded-full"
           />
         </div>
 
-        <div className="arrow-container hidden md:flex justify-center w-full text-darkBgText">
+        <div className="arrow-container hidden w-full justify-center text-darkBgText md:flex">
           <a
             className="nav-link cursor-pointer"
             onClick={(e) => {
-              e.preventDefault()
-              scrollToView("work")
+              e.preventDefault();
+              scrollToView("work");
             }}
           >
             <FontAwesomeIcon icon={faAngleDown} />

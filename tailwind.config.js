@@ -12,6 +12,9 @@ export default {
         shadowHover: "#9c9c9cb3",
         shadowActive: "#7d7d7db3",
       },
+      spacing: {
+        nav: "var(--navbar-height)",
+      },
     },
     borderRadius: {
       none: "0",

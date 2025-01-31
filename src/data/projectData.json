@@ -5,9 +5,9 @@
     "cardDesc": "This project involved enhancing a beta website using WordPress, liaising with the client and product consultant. We followed agile methodologies to help carry the project through to a stable release.",
     "about": "TBC",
     "skills": ["WordPress", "Agile working"],
-    "url": "/work/cutover-concepts"
+    "url": "cutover-concepts",
+    "screenshots": ["/assets/cutover-concepts/cc-logo.png"]
   },
-
   {
     "thumbnail": "/assets/pint/B870F3D1-79B0-4696-BF7E-410C1FB6B03D.png",
     "title": "People In Need Today",
@@ -19,29 +19,44 @@
       "User experience design",
       "GoDaddy"
     ],
-    "url": "/work/pint"
+    "url": "pint",
+    "screenshots": [
+      "/assets/pint/PINT-desktop.png",
+      "/assets/pint/PINT-mobile.png"
+    ]
   },
-
   {
     "thumbnail": "/assets/ohmyfood/ohmyfood.png",
     "title": "Ohmyfood",
-    "cardDesc": "My second project created in a HTML and CSS bootcamp. This projected included multiple pages, basic animations and an introduction to SASS.",
+    "cardDesc": "My second project created in a HTML and CSS bootcamp. This project included multiple pages, basic animations and an introduction to SASS.",
     "about": "This was my second project during my OpenClassrooms bootcamp. Ohmyfood is a food ordering website comprising a homepage and food menu subpages. I built this using HTML, CSS (including Sass), and CSS animations. Using GitHub for version control, my Ohmyfood project showcases my ability to quickly learn new front-end technologies, which provides the user with a responsive, accessible and visually pleasing experience.",
-    "skills": [
-      "HTML",
-      "CSS (Sass)",
-      "CSS animations",
-      "GitHub for version control and website deployment"
-    ],
-    "url": "/work/ohmyfood"
+    "skills": ["HTML", "CSS", "Sass", "CSS animations"],
+    "url": "ohmyfood",
+    "screenshots": [
+      "/assets/ohmyfood/screenshots/omf-desktop-homepage.png",
+      "/assets/ohmyfood/screenshots/omf-desktop-menu.png",
+      "/assets/ohmyfood/screenshots/omf-heart.png",
+      "/assets/ohmyfood/screenshots/omf-mobile-1.png",
+      "/assets/ohmyfood/screenshots/omf-mobile-2.png",
+      "/assets/ohmyfood/screenshots/omf-mobile-collage.jpg",
+      "/assets/ohmyfood/screenshots/omf-mobile.png",
+      "/assets/ohmyfood/screenshots/omf-spinner.png",
+      "/assets/ohmyfood/screenshots/omf-tablet.png",
+      "/assets/ohmyfood/screenshots/omf-tick.png"
+    ]
   },
-
   {
     "thumbnail": "/assets/booki/Booki@3x.png",
     "title": "Booki",
     "cardDesc": "My first project created in a HTML and CSS bootcamp. I built a homepage based on mockups using basic HTML and CSS.",
     "about": "My very first project involving in front-end development. I was tasked to recreate a homepage for a hotel booking website based on mockups provided. To achieve this, I used HTML and vanilla CSS. I utilised flexbox to achieve a responsive layout between mobile, tablet and desktop.",
-    "skills": ["Semantic HTML", "CSS", "Flexbox"],
-    "url": "/work/booki"
+    "skills": ["Semantic HTML", "CSS", "Flexbox", "Responsive design"],
+    "url": "ohmyfood",
+    "screenshots": [
+      "/assets/booki/screenshots/booki-desktop.png",
+      "/assets/booki/screenshots/booki-tablet-1.png",
+      "/assets/booki/screenshots/booki-tablet-2.png",
+      "/assets/booki/screenshots/mobile-collage.png"
+    ]
   }
 ]

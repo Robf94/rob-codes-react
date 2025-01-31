@@ -3,77 +3,71 @@ import Button from "./Button";
 function ContactForm() {
   return (
     <section
-      className="custom-padding-lg py-10 px-2"
+      className="custom-padding-lg scroll-mt-nav px-2 py-10"
       id="contact"
     >
       <div className="flex justify-center">
         <div className="w-full max-w-lg">
-          <h1 className="md:text-center text-4xl mb-2 w-fulld">Get in touch</h1>
+          <h1 className="w-fulld mb-2 text-4xl md:text-center">Get in touch</h1>
           <form
-            className="bg-white p-5 shadow-md rounded-lg"
+            className="rounded-lg bg-white p-5 shadow-md"
             name="contact"
             method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <input
-              className="hidden"
-              name="bot-field"
-            />
+            <input className="hidden" name="bot-field" />
 
-            <div className="mt-3 relative">
+            <div className="relative mt-3">
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="block px-2.5 pb-2.5 pt-4 text-sm text-gray-900 bg-transparent  border-1 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-500 focus:outline-none focus:ring-0 focus:border-primary peer mt-1 p-2 w-full border border-gray-300 rounded-md"
+                className="border-1 dark:focus:border-primary-500 peer mt-1 block w-full appearance-none rounded-md border border-gray-300 bg-transparent p-2 px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white"
                 placeholder=""
               />
               <label
                 htmlFor="name"
-                className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                className="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-primary rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
               >
                 Name
               </label>
             </div>
 
-            <div className="mt-3 relative">
+            <div className="relative mt-3">
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="block px-2.5 pb-2.5 pt-4 text-sm text-gray-900 bg-transparent  border-1 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-500 focus:outline-none focus:ring-0 focus:border-primary peer mt-1 p-2 w-full border border-gray-300 rounded-md"
+                className="border-1 dark:focus:border-primary-500 peer mt-1 block w-full appearance-none rounded-md border border-gray-300 bg-transparent p-2 px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white"
                 placeholder=""
               />
               <label
                 htmlFor="email"
-                className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                className="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-primary rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
               >
                 Email address
               </label>
             </div>
 
-            <div className="mt-3 relative">
+            <div className="relative mt-3">
               <textarea
                 type="textarea"
                 id="name"
                 name="name"
                 rows={8}
-                className="block px-2.5 pb-2.5 pt-4 text-sm text-gray-900 bg-transparent  border-1 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-500 focus:outline-none focus:ring-0 focus:border-primary peer mt-1 p-2 w-full border border-gray-300 rounded-md mb-5"
+                className="border-1 dark:focus:border-primary-500 peer mb-5 mt-1 block w-full appearance-none rounded-md border border-gray-300 bg-transparent p-2 px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white"
                 placeholder=""
               />
               <label
                 htmlFor="message"
-                className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-6 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                className="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-white px-2 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-6 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-primary rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
               >
                 Say hello!
               </label>
             </div>
 
-            <Button
-              type="submit"
-              buttonText="Send"
-            />
+            <Button type="submit" buttonText="Send" />
           </form>
         </div>
       </div>

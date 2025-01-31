@@ -21,13 +21,13 @@ function SwiperGroup() {
           slidesPerView: 3,
         },
       }}
-      height={100}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
+      className="swiper-matching-height"
     >
       {projectData.map((project) => (
-        <SwiperSlide key={project.title}>
+        <SwiperSlide key={project.title} className="h-full">
           <ProjectCard
             title={project.title}
             thumbnail={project.thumbnail}

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="flex flex-col items-center p-24 bg-primary text-darkBgText">
+    <footer className="flex flex-col items-center bg-primary p-24 text-darkBgText">
       <ul className="list-none">
         <li>
           <a
@@ -12,7 +12,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <h6 className="uppercase mt-4">
+      <h6 className="mt-4 uppercase">
         &copy; {new Date().getFullYear()} Rob Codes
       </h6>
       <h6 className="uppercase">Built with React</h6>
