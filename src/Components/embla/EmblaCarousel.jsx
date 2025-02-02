@@ -13,7 +13,11 @@ import ProjectCard from "../ProjectCard.jsx";
 
 function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: false, slidesToScroll: "auto" },
+    {
+      loop: false,
+      slidesToScroll: 1,
+      duration: 10
+    },
     [WheelGesturesPlugin()],
   );
 
@@ -29,7 +33,7 @@ function EmblaCarousel() {
 
   return (
     <div className="embla">
-      <div className="embla__viewport" ref={emblaRef}>
+      <div className="embla__viewport overflow-hidden" ref={emblaRef}>
         <div className="embla__container">
           {projectData.map((project) => (
             <div key={project.title} className="embla__slide">

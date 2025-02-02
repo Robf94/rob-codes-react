@@ -2,9 +2,16 @@
   {
     "thumbnail": "TBC",
     "title": "EcoXP",
-    "cardDesc": "TBC",
-    "about": "TBC",
-    "skills": ["TBC"],
+    "cardDesc": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city.",
+    "about": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city. The user can earn XP by completing quizzes, and scanning and recycling items.\nThe tech stack includes PSQL database, and a RESTful API, built with Express, Node, and JavaScript, and hosted on Supabase and Render. The frontend was built using React Native with Expo, and styled with React Native Paper.",
+    "skills": [
+      "Test-driven development",
+      "Agile",
+      "PosgreSQL",
+      "Express",
+      "Axios",
+      "React Native"
+    ],
     "url": "ecoxp",
     "screenshots": ["TBC"]
   },
