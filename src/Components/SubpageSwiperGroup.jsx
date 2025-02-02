@@ -34,15 +34,20 @@ function SubpageSwiperGroup(props) {
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
       onAutoplayTimeLeft={onAutoplayTimeLeft}
-      className="mySwiper"
+      className="subpage-swiper"
     >
       {images.map((image, index) => (
-        <SwiperSlide key={index}>
-          <img
-            src={image}
-            alt={`Project screenshot ${index + 1}`}
-            className="rounded-md"
-          />
+        <SwiperSlide key={index} className="subpage-swiper-slide">
+          <div
+            className="image-container"
+            style={{ backgroundImage: `url(${image})` }}
+          >
+            <img
+              src={image}
+              alt={`Project screenshot ${index + 1}`}
+              className="object-contain"
+            />
+          </div>
         </SwiperSlide>
       ))}
       <div className="autoplay-progress" slot="container-end">

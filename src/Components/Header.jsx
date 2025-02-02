@@ -5,26 +5,21 @@ function Header() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Handles smooth scrolling or navigation based on current page
   const handleScrollOrNavigate = (e, id) => {
     e.preventDefault();
 
     if (location.pathname === "/") {
-      // If on homepage, scroll to the section
       scrollToView(id);
     } else {
-      // If on a subpage, navigate to homepage first
       navigate("/", { replace: true });
-
-      // Delay scrolling slightly to ensure page has loaded
       setTimeout(() => scrollToView(id), 100);
     }
   };
 
   return (
-    <header className="fixed top-0 z-10 w-full">
-      <nav className="navbar-custom custom-padding-lg relative flex w-full items-center justify-between px-2 py-0">
-        {/* Mobile Dropdown (visible on small screens) */}
+    <header className="fixed top-0 z-10 h-nav w-full">
+      <nav className="navbar-custom custom-padding-lg relative flex h-nav w-full items-center justify-between bg-primary px-2 py-0">
+        {/* Mobile Dropdown */}
         <div className="navbar-start md:hidden">
           <div className="dropdown">
             <div
@@ -52,26 +47,15 @@ function Header() {
               className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
             >
               <li>
-                <a
-                  className="nav-link"
-                  onClick={(e) => handleScrollOrNavigate(e, "about-me")}
-                >
+                <a onClick={(e) => handleScrollOrNavigate(e, "hero")}>
                   About me
                 </a>
               </li>
               <li>
-                <a
-                  className="nav-link cursor-pointer"
-                  onClick={(e) => handleScrollOrNavigate(e, "work")}
-                >
-                  Work
-                </a>
+                <a onClick={(e) => handleScrollOrNavigate(e, "work")}>Work</a>
               </li>
               <li>
-                <a
-                  className="nav-link"
-                  onClick={(e) => handleScrollOrNavigate(e, "contact")}
-                >
+                <a onClick={(e) => handleScrollOrNavigate(e, "contact")}>
                   Get in touch
                 </a>
               </li>
@@ -79,11 +63,9 @@ function Header() {
           </div>
         </div>
 
-        {/* Logo (Navigates home or scrolls to top) */}
         <Link
           to="/"
-          className="absolute left-1/2 h-auto -translate-x-1/2 transform md:relative md:left-auto md:transform-none"
-          style={{ height: "40px" }}
+          className="absolute left-1/2 h-[40px] -translate-x-1/2 transform md:relative md:left-auto md:transform-none"
           onClick={(e) => {
             if (location.pathname === "/") {
               e.preventDefault();
@@ -102,26 +84,13 @@ function Header() {
         <div className="navbar-end hidden md:flex">
           <ul className="menu menu-horizontal flex p-0 text-darkBgText">
             <li>
-              <a
-                className="nav-link"
-                onClick={(e) => handleScrollOrNavigate(e, "about-me")}
-              >
-                About me
-              </a>
+              <a onClick={(e) => handleScrollOrNavigate(e, "hero")}>About me</a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                onClick={(e) => handleScrollOrNavigate(e, "work")}
-              >
-                Work
-              </a>
+              <a onClick={(e) => handleScrollOrNavigate(e, "work")}>Work</a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                onClick={(e) => handleScrollOrNavigate(e, "contact")}
-              >
+              <a onClick={(e) => handleScrollOrNavigate(e, "contact")}>
                 Get in touch
               </a>
             </li>

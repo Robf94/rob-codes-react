@@ -1,0 +1,67 @@
+import { useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
+import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
+import {
+  PrevButton,
+  NextButton,
+  usePrevNextButtons,
+} from "./EmblaCarouselArrowButtons";
+
+import projectData from "../../data/projectData.json";
+import ProjectCard from "../ProjectCard.jsx";
+
+function EmblaCarousel() {
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: false, slidesToScroll: "auto" },
+    [WheelGesturesPlugin()],
+  );
+
+  const { selectedIndex, scrollSnaps, onDotButtonClick } =
+    useDotButton(emblaApi);
+
+  const {
+    prevBtnDisabled,
+    nextBtnDisabled,
+    onPrevButtonClick,
+    onNextButtonClick,
+  } = usePrevNextButtons(emblaApi);
+
+  return (
+    <div className="embla">
+      <div className="embla__viewport" ref={emblaRef}>
+        <div className="embla__container">
+          {projectData.map((project) => (
+            <div key={project.title} className="embla__slide">
+              <ProjectCard
+                title={project.title}
+                thumbnail={project.thumbnail}
+                cardDesc={project.cardDesc}
+                url={project.url}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="embla__controls">
+        <div className="embla__buttons">
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        </div>
+
+        <div className="embla__dots">
+          {scrollSnaps.map((_, index) => (
+            <DotButton
+              key={index}
+              onClick={() => onDotButtonClick(index)}
+              className={`embla__dot ${index === selectedIndex ? "embla__dot--selected" : ""}`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default EmblaCarousel;

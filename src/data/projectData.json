@@ -1,5 +1,14 @@
 [
   {
+    "thumbnail": "TBC",
+    "title": "EcoXP",
+    "cardDesc": "TBC",
+    "about": "TBC",
+    "skills": ["TBC"],
+    "url": "ecoxp",
+    "screenshots": ["TBC"]
+  },
+  {
     "thumbnail": "/assets/cutover-concepts/cc-logo.png",
     "title": "Cutover Concepts",
     "cardDesc": "This project involved enhancing a beta website using WordPress, liaising with the client and product consultant. We followed agile methodologies to help carry the project through to a stable release.",
@@ -21,8 +30,8 @@
     ],
     "url": "pint",
     "screenshots": [
-      "/assets/pint/PINT-desktop.png",
-      "/assets/pint/PINT-mobile.png"
+      "/assets/pint/screenshots/pint-desktop.png",
+      "/assets/pint/screenshots/pint-mobile.png"
     ]
   },
   {
@@ -34,15 +43,7 @@
     "url": "ohmyfood",
     "screenshots": [
       "/assets/ohmyfood/screenshots/omf-desktop-homepage.png",
-      "/assets/ohmyfood/screenshots/omf-desktop-menu.png",
-      "/assets/ohmyfood/screenshots/omf-heart.png",
-      "/assets/ohmyfood/screenshots/omf-mobile-1.png",
-      "/assets/ohmyfood/screenshots/omf-mobile-2.png",
-      "/assets/ohmyfood/screenshots/omf-mobile-collage.jpg",
-      "/assets/ohmyfood/screenshots/omf-mobile.png",
-      "/assets/ohmyfood/screenshots/omf-spinner.png",
-      "/assets/ohmyfood/screenshots/omf-tablet.png",
-      "/assets/ohmyfood/screenshots/omf-tick.png"
+      "/assets/ohmyfood/screenshots/omf-mobile-collage.png"
     ]
   },
   {
@@ -51,7 +52,7 @@
     "cardDesc": "My first project created in a HTML and CSS bootcamp. I built a homepage based on mockups using basic HTML and CSS.",
     "about": "My very first project involving in front-end development. I was tasked to recreate a homepage for a hotel booking website based on mockups provided. To achieve this, I used HTML and vanilla CSS. I utilised flexbox to achieve a responsive layout between mobile, tablet and desktop.",
     "skills": ["Semantic HTML", "CSS", "Flexbox", "Responsive design"],
-    "url": "ohmyfood",
+    "url": "booki",
     "screenshots": [
       "/assets/booki/screenshots/booki-desktop.png",
       "/assets/booki/screenshots/booki-tablet-1.png",

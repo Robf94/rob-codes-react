@@ -13,7 +13,7 @@ function Skills() {
             key={index}
             className="flex w-[calc(100%/3-0.75rem)] items-center justify-center sm:w-[calc(100%/4-0.75rem)] md:w-[calc(100%/6-0.75rem)] lg:w-[calc(100%/12-0.75rem)]"
           >
-            <div className="tooltip" data-tip={skill.name}>
+            <div className="tooltip text-white" data-tip={skill.name}>
               <img
                 src={skill.src}
                 alt={skill.alt}

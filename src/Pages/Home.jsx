@@ -1,7 +1,8 @@
 import ContactForm from "../components/ContactForm";
-import Hero from "../Components/Hero";
+import Hero from "../components/Hero";
 import Skills from "../components/Skills";
-import Work from "../Components/Work";
+import Work from "../components/Work";
+
 
 function Home() {
   return (
