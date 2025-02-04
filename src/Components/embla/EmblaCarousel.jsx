@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
@@ -16,7 +15,7 @@ function EmblaCarousel() {
     {
       loop: false,
       slidesToScroll: 1,
-      duration: 10
+      duration: 10,
     },
     [WheelGesturesPlugin()],
   );
@@ -34,7 +33,7 @@ function EmblaCarousel() {
   return (
     <div className="embla">
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container flex">
           {projectData.map((project) => (
             <div key={project.title} className="embla__slide">
               <ProjectCard
@@ -48,13 +47,13 @@ function EmblaCarousel() {
         </div>
       </div>
 
-      <div className="embla__controls">
-        <div className="embla__buttons">
+      <div className="embla__controls grid justify-between">
+        <div className="embla__buttons grid items-center">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
 
-        <div className="embla__dots">
+        <div className="embla__dots flex flex-wrap items-center justify-end">
           {scrollSnaps.map((_, index) => (
             <DotButton
               key={index}

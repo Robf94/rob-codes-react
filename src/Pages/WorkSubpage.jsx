@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import projectData from "../data/projectData.json";
 import SubpageSwiperGroup from "../components/SubpageSwiperGroup";
+import Button from "../components/Button";
+import EmblaCarouselSubpage from "../components/embla/EmblaCarouselSubpage";
 
 function WorkSubpage() {
   const { url } = useParams();
@@ -16,19 +18,17 @@ function WorkSubpage() {
       id={project.url}
     >
       <div className="mx-auto">
-        {/* Title Section */}
         <div className="mb-6">
           <h1 className="text-4xl font-semibold">{project.title}</h1>
         </div>
 
-        {/* Content Section */}
         <div className="flex flex-col gap-6 md:flex-row">
           {/* Swiper Section */}
           <div className="w-full md:w-1/2">
-            <SubpageSwiperGroup images={project.screenshots} />
+            {/* <SubpageSwiperGroup images={project.screenshots} /> */}
+            <EmblaCarouselSubpage images={project.screenshots} />
           </div>
 
-          {/* Description & Skills Section */}
           <div className="w-full md:w-1/2">
             <div className="desc-container mb-6">
               <h3 className="text-2xl font-semibold">About</h3>
@@ -44,14 +44,7 @@ function WorkSubpage() {
                 ))}
               </ul>
             </div>
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              className="rounded mt-4 inline-block bg-blue-500 px-6 py-2 text-white hover:bg-blue-600"
-            >
-              View Project
-            </a>
+            <Button buttonLink={project.extUrl} buttonText="View Project" />
           </div>
         </div>
       </div>

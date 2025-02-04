@@ -3,7 +3,7 @@
     "thumbnail": "TBC",
     "title": "EcoXP",
     "cardDesc": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city.",
-    "about": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city. The user can earn XP by completing quizzes, and scanning and recycling items.\nThe tech stack includes PSQL database, and a RESTful API, built with Express, Node, and JavaScript, and hosted on Supabase and Render. The frontend was built using React Native with Expo, and styled with React Native Paper.",
+    "about": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city. The user can earn XP by completing quizzes, and scanning and recycling items. The tech stack includes PSQL database, and a RESTful API, built with Express, Node, and JavaScript, and hosted on Supabase and Render. The frontend was built using React Native with Expo, and styled with React Native Paper.",
     "skills": [
       "Test-driven development",
       "Agile",
@@ -13,6 +13,7 @@
       "React Native"
     ],
     "url": "ecoxp",
+    "extUrl": "",
     "screenshots": ["TBC"]
   },
   {
@@ -22,6 +23,7 @@
     "about": "TBC",
     "skills": ["WordPress", "Agile working"],
     "url": "cutover-concepts",
+    "extUrl": "https://cutoverconcepts.org",
     "screenshots": ["/assets/cutover-concepts/cc-logo.png"]
   },
   {
@@ -36,6 +38,7 @@
       "GoDaddy"
     ],
     "url": "pint",
+    "extUrl": "https://pintgiving.org",
     "screenshots": [
       "/assets/pint/screenshots/pint-desktop.png",
       "/assets/pint/screenshots/pint-mobile.png"
@@ -48,6 +51,7 @@
     "about": "This was my second project during my OpenClassrooms bootcamp. Ohmyfood is a food ordering website comprising a homepage and food menu subpages. I built this using HTML, CSS (including Sass), and CSS animations. Using GitHub for version control, my Ohmyfood project showcases my ability to quickly learn new front-end technologies, which provides the user with a responsive, accessible and visually pleasing experience.",
     "skills": ["HTML", "CSS", "Sass", "CSS animations"],
     "url": "ohmyfood",
+    "extUrl": "https://robf94.github.io/Project-2-ohmyfood/",
     "screenshots": [
       "/assets/ohmyfood/screenshots/omf-desktop-homepage.png",
       "/assets/ohmyfood/screenshots/omf-mobile-collage.png"
@@ -60,6 +64,7 @@
     "about": "My very first project involving in front-end development. I was tasked to recreate a homepage for a hotel booking website based on mockups provided. To achieve this, I used HTML and vanilla CSS. I utilised flexbox to achieve a responsive layout between mobile, tablet and desktop.",
     "skills": ["Semantic HTML", "CSS", "Flexbox", "Responsive design"],
     "url": "booki",
+    "extUrl": "https://robf94.github.io/booki-homepage/",
     "screenshots": [
       "/assets/booki/screenshots/booki-desktop.png",
       "/assets/booki/screenshots/booki-tablet-1.png",

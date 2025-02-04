@@ -3,7 +3,7 @@ import Button from "./Button";
 function ProjectCard(props) {
   const { title, thumbnail, cardDesc, url } = props;
   return (
-    <div className="rounded-xl flex h-full flex-col justify-evenly bg-white p-10">
+    <div className="flex h-full flex-col justify-evenly rounded-xl bg-white p-10">
       <img
         src={thumbnail}
         alt={title}
