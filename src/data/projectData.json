@@ -1,0 +1,84 @@
+[
+  {
+    "thumbnail": "/assets/ecoxp/ecoxp-thumb.png",
+    "title": "EcoXP",
+    "cardDesc": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city.",
+    "about": "EcoXP gives users an incentive to learn more about what they can recycle in their area, via friendly competition between friends, postcodes, and their city. The user can earn XP by completing quizzes, and scanning and recycling items. The tech stack includes PSQL database, and a RESTful API, built with Express, Node, and JavaScript, and hosted on Supabase and Render. The frontend was built using React Native with Expo, and styled with React Native Paper.",
+    "skills": [
+      "Test-driven development",
+      "Agile",
+      "PosgreSQL",
+      "Express",
+      "Axios",
+      "React Native",
+      "Expo"
+    ],
+    "url": "ecoxp",
+    "extUrl": "https://github.com/elenipage/eco-xp-app",
+    "screenshots": [
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-1.png",
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-2.png",
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-3.png",
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-4.png",
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-5.png",
+      "/assets/ecoxp/screenshots/ecoxp-screenshot-6.png"
+    ]
+  },
+  {
+    "thumbnail": "/assets/cutover-concepts/cc-logo.png",
+    "title": "Cutover Concepts",
+    "cardDesc": "This project involved enhancing a beta website using WordPress, liaising with the client and product consultant. We followed agile methodologies to help carry the project through to a stable release.",
+    "about": "This project involved enhancing a beta website using WordPress, liaising with the client and product consultant. We followed agile methodologies to help carry the project through to a stable release. Please note that the website has recently been brought offline so the link below may not work.",
+    "skills": ["WordPress", "Agile working"],
+    "url": "cutover-concepts",
+    "extUrl": "https://cutoverconcepts.org",
+    "screenshots": ["/assets/cutover-concepts/cc-logo.png"]
+  },
+  {
+    "thumbnail": "/assets/pint/B870F3D1-79B0-4696-BF7E-410C1FB6B03D.png",
+    "title": "People In Need Today",
+    "cardDesc": "My first real-world project. I created a simple holding page with links to socials, a donation page and contact details. We are currently in the process of building the full website.",
+    "about": "I am currently helping PINT (People In Need Today) - a charity that helps the homeless - build their first website. I have completed a holding page which includes links to socials, as well as to donations. I am in the process of building their full website, which will include important information for the people they help and for volunteers.",
+    "skills": [
+      "Basic JavaScript",
+      "Using GitHub for collaboration and version control",
+      "User experience design",
+      "GoDaddy"
+    ],
+    "url": "pint",
+    "extUrl": "https://pintgiving.org",
+    "screenshots": [
+      "/assets/pint/screenshots/pint-screenshot-1.png",
+      "/assets/pint/screenshots/pint-screenshot-2.png",
+      "/assets/pint/screenshots/pint-screenshot-3.png"
+    ]
+  },
+  {
+    "thumbnail": "/assets/ohmyfood/ohmyfood.png",
+    "title": "Ohmyfood",
+    "cardDesc": "My second project created in a HTML and CSS bootcamp. This project included multiple pages, basic animations and an introduction to SASS.",
+    "about": "This was my second project during my OpenClassrooms bootcamp. Ohmyfood is a food ordering website comprising a homepage and food menu subpages. I built this using HTML, CSS (including Sass), and CSS animations. Using GitHub for version control, my Ohmyfood project showcases my ability to quickly learn new front-end technologies, which provides the user with a responsive, accessible and visually pleasing experience.",
+    "skills": ["HTML", "CSS", "Sass", "CSS animations"],
+    "url": "ohmyfood",
+    "extUrl": "https://robf94.github.io/Project-2-ohmyfood/",
+    "screenshots": [
+      "/assets/ohmyfood/screenshots/omf-desktop-homepage.png",
+      "/assets/ohmyfood/screenshots/omf-mobile-collage.png"
+    ]
+  },
+  {
+    "thumbnail": "/assets/booki/Booki@3x.png",
+    "title": "Booki",
+    "cardDesc": "My first project created in a HTML and CSS bootcamp. I built a homepage based on mockups using basic HTML and CSS.",
+    "about": "My very first project involving in front-end development. I was tasked to recreate a homepage for a hotel booking website based on mockups provided. To achieve this, I used HTML and vanilla CSS. I utilised flexbox to achieve a responsive layout between mobile, tablet and desktop.",
+    "skills": ["Semantic HTML", "CSS", "Flexbox", "Responsive design"],
+    "url": "booki",
+    "extUrl": "https://robf94.github.io/booki-homepage/",
+    "screenshots": [
+      "/assets/booki/screenshots/booki-desktop.png",
+      "/assets/booki/screenshots/booki-tablet-1.png",
+      "/assets/booki/screenshots/booki-tablet-2.png",
+      "/assets/booki/screenshots/mobile-collage.jpg"
+    ]
+  }
+]
