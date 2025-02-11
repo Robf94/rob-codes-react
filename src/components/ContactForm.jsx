@@ -1,5 +1,3 @@
-import Button from "./Button";
-
 function ContactForm() {
   return (
     <section className="w-full md:w-1/2" id="contact">
