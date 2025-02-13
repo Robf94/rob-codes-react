@@ -1,0 +1,72 @@
+[
+  {
+    "src": "/assets/skills-logos/HTML5_Badge.png",
+    "alt": "HTML 5 Logo",
+    "name": "HTML"
+  },
+  {
+    "src": "/assets/skills-logos/CSS3_badge.png",
+    "alt": "CSS 3 Logo",
+    "name": "CSS"
+  },
+  {
+    "src": "/assets/skills-logos/react.png",
+    "alt": "React Logo",
+    "name": "React"
+  },
+  {
+    "src": "/assets/skills-logos/tailwind.png",
+    "alt": "Tailwind CSS Logo",
+    "name": "Tailwind CSS"
+  },
+  {
+    "src": "/assets/skills-logos/sass.png",
+    "alt": "Sass Logo",
+    "name": "Sass"
+  },
+  {
+    "src": "/assets/skills-logos/bootstrap.png",
+    "alt": "Bootstrap Logo",
+    "name": "Bootstrap"
+  },
+  {
+    "src": "/assets/skills-logos/js-badge.png",
+    "alt": "JavaScript Logo",
+    "name": "JavaScript"
+  },
+  {
+    "src": "/assets/skills-logos/python.png",
+    "alt": "Python Logo",
+    "name": "Python"
+  },
+  {
+    "src": "/assets/skills-logos/eleventy.png",
+    "alt": "Eleventy Logo",
+    "name": "Eleventy"
+  },
+  {
+    "src": "/assets/skills-logos/nunjucks.jpg",
+    "alt": "Nunjucks Logo",
+    "name": "Nunjucks"
+  },
+  {
+    "src": "/assets/skills-logos/Netlify_logo.png",
+    "alt": "Netlify Logo",
+    "name": "Netlify"
+  },
+  {
+    "src": "/assets/skills-logos/Git_icon.png",
+    "alt": "Git Logo",
+    "name": "Git"
+  },
+  {
+    "src": "/assets/skills-logos/github-mark.png",
+    "alt": "GitHub Logo",
+    "name": "GitHub"
+  },
+  {
+    "src": "/assets/skills-logos/wp-logo.png",
+    "alt": "WordPress Logo",
+    "name": "WordPress"
+  }
+]
