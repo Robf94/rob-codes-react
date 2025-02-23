@@ -1,6 +1,6 @@
 function ContactForm() {
   return (
-    <section className="w-full md:w-1/2" id="contact">
+    <section className="w-full md:w-1/2">
       <div className="flex justify-center">
         <div className="w-full max-w-lg">
           <h1 className="mb-2 w-full text-4xl md:text-center">Get in touch</h1>
