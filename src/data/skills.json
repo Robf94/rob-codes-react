@@ -68,5 +68,10 @@
     "src": "/assets/skills-logos/wp-logo.png",
     "alt": "WordPress Logo",
     "name": "WordPress"
+  },
+  {
+    "src": "/assets/skills-logos/psql.png",
+    "alt": "PSQL Logo",
+    "name": "PostgreSQL"
   }
 ]
