@@ -4,10 +4,12 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import WorkSubpage from "./pages/WorkSubpage";
+import ScrollToTop from "./utils/scrollToTop.js";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
