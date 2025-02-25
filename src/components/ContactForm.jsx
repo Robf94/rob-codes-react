@@ -4,6 +4,12 @@ function ContactForm() {
       <div className="flex justify-center">
         <div className="w-full max-w-lg">
           <h1 className="mb-2 w-full text-4xl md:text-center">Get in touch</h1>
+          <p className="mb-2">
+            Looking for a custom website, web app, or API? I build modern
+            websites, develop scalable web applications, and create secure,
+            efficient APIs. I also work with databases to ensure smooth data
+            management. Get in touch to discuss your project!
+          </p>
           <form
             className="rounded-lg bg-white p-5"
             name="contact"
@@ -53,7 +59,7 @@ function ContactForm() {
                 id="message"
                 name="message"
                 rows={8}
-                className="border-1 peer mb-5 mt-1 block w-full appearance-none rounded-md border border-gray-300 bg-transparent p-2 px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white"
+                className="border-1 peer mb-5 mt-1 block w-full resize-none appearance-none rounded-md border border-gray-300 bg-transparent p-2 px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white"
                 placeholder=""
                 required
               />

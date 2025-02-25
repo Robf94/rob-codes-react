@@ -10,7 +10,10 @@ function Home() {
       <Hero />
       <Work />
       <Skills />
-      <div className="custom-padding-lg flex scroll-mt-nav flex-col gap-6 px-2 py-10 md:flex-row" id="contact">
+      <div
+        className="custom-padding-lg flex scroll-mt-nav flex-col gap-2 px-2 py-10 md:flex-row"
+        id="contact"
+      >
         <ContactForm />
         <HighFive />
       </div>
