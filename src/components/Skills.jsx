@@ -2,7 +2,7 @@ import skills from "../data/skills.json";
 
 function Skills() {
   return (
-    <section className="custom-padding-lg px-2 py-10">
+    <section className="custom-padding-lg px-2 my-5">
       <h1 className="mb-2 w-full text-4xl md:text-center">Skills</h1>
       <div className="flex flex-wrap justify-center gap-3">
         {skills.map((skill, index) => (

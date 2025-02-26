@@ -49,7 +49,7 @@ function HighFive() {
   };
 
   return (
-    <section className="relative flex w-full flex-col items-center justify-center md:w-1/2">
+    <section className="relative flex w-full flex-col items-center justify-center md:w-1/2 mt-2 md:mt-0">
       <h1 className="mb-2 w-full text-4xl md:text-center">High five?</h1>
 
       {isError ? (
