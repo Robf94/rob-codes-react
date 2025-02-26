@@ -29,7 +29,7 @@ function Hero() {
           <p className="mb-0 text-xl">
             I'm a self-motivated software developer with a passion for building
             beautiful, functional web apps. With hands-on experience in
-            full-stack development, I specialize in crafting responsive websites
+            full-stack development, I specialise in crafting responsive websites
             and dynamic apps for clients. I have an eye for detail and bring a
             problem-solving mindset to every task. Please feel free to browse my
             recent projects below!
