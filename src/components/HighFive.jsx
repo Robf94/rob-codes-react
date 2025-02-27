@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ClickSpark from "../Animations/ClickSpark/ClickSpark.jsx";
 import supabase from "../utils/supabaseClient.js";
+import { motion } from "motion/react";
 
 function HighFive() {
   const [count, setCount] = useState(0);
@@ -49,7 +50,12 @@ function HighFive() {
   };
 
   return (
-    <section className="relative flex w-full flex-col items-center justify-center md:w-1/2 mt-2 md:mt-0">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ amount: 0.3, once: true}}
+      className="relative mt-2 flex w-full flex-col items-center justify-center md:mt-0 md:w-1/2"
+    >
       <h1 className="mb-2 w-full text-4xl md:text-center">High five?</h1>
 
       {isError ? (
@@ -68,7 +74,7 @@ function HighFive() {
           />
         </div>
       )}
-    </section>
+    </motion.section>
   );
 }
 
