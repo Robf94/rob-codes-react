@@ -1,14 +1,8 @@
-import { motion } from "motion/react";
 import skills from "../data/skills.json";
 
 function Skills() {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ amount: 0.5, once: true}}
-      className="custom-padding-lg my-5 px-2"
-    >
+    <section className="custom-padding-lg my-5 px-2">
       <h1 className="mb-2 w-full text-4xl md:text-center">Skills</h1>
       <div className="flex flex-wrap justify-center gap-3">
         {skills.map((skill, index) => (
@@ -26,7 +20,7 @@ function Skills() {
           </div>
         ))}
       </div>
-    </motion.section>
+    </section>
   );
 }
 

@@ -1,13 +1,6 @@
-import { motion } from "motion/react";
-
 function ContactForm() {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ amount: 0.3, once: true}}
-      className="w-full md:w-1/2"
-    >
+    <section className="w-full md:w-1/2">
       <div className="flex justify-center">
         <div className="w-full max-w-lg">
           <h1 className="mb-2 w-full text-4xl md:text-center">Get in touch</h1>
@@ -87,7 +80,7 @@ function ContactForm() {
           </form>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }
 
