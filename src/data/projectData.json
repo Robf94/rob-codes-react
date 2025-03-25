@@ -25,6 +25,28 @@
     ]
   },
   {
+    "thumbnail": "/assets/nc-news/nc-news.png",
+    "title": "NC News",
+    "cardDesc": "A full stack app built with JavaScript, NodeJS, Express, and PSQL. The creation of a RESTful API, the data of which is fetched with Axios, and the front end built with React.",
+    "about": "The back end of this app interacts with a PSQL database using node-postgres, and uses MVC architecture to build a RESTful API, hosted on Supabase and Render respectively. Axios interacts with this API, and makes HTTP request to get, post, patch, and delete data. I used React, along with TailwindCSS and DaisyUI, to create a responsive front end web app.",
+    "skills": [
+      "Test-driven development",
+      "PosgreSQL",
+      "Express",
+      "Axios",
+      "React",
+      "React hooks",
+      "State management"
+    ],
+    "url": "ncnews",
+    "extUrl": "https://rf-nc-news.netlify.app/",
+    "screenshots": [
+      "/assets/nc-news/screenshots/screenshot-1.png",
+      "/assets/nc-news/screenshots/screenshot-2.png",
+      "/assets/nc-news/screenshots/screenshot-3.png"
+    ]
+  },
+  {
     "thumbnail": "/assets/cutover-concepts/cc-logo.png",
     "title": "Cutover Concepts",
     "cardDesc": "This project involved enhancing a beta website using WordPress, liaising with the client and product consultant. We followed agile methodologies to help carry the project through to a stable release.",
